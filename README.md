@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio — Tom Musset
 
-## Getting Started
+Portfolio personnel responsive en HTML, CSS et JavaScript natifs. Il présente le parcours, les compétences et deux projets : Todo List et Aussonne.
 
-First, run the development server:
+## Lancer en local
+Aucune dépendance ni compilation n'est nécessaire. Ouvrez simplement `index.html` dans un navigateur. Vous pouvez aussi utiliser l'extension Live Server de VS Code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fichiers
+- `index.html` : contenu et structure du site.
+- `styles.css` : identité visuelle et mise en page responsive.
+- `script.js` : menu mobile.
+- `assets/` : dossier réservé aux futurs médias.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## À noter
+Les aperçus des projets sont des illustrations conceptuelles et non des captures exactes des applications originales. Aucun PDF de CV n'est proposé pour le moment, afin d'éviter un lien de téléchargement fictif.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Ajouter le CV plus tard
 
-## Learn More
+Quand le PDF sera disponible, place-le dans le dossier `assets/` sous le nom exact `CV-Tom-Musset.pdf`. Le bloc CV de la section « Parcours » et son lien pointent déjà vers `assets/CV-Tom-Musset.pdf`. Aucun code supplémentaire ne sera nécessaire si tu conserves ce nom.
 
-To learn more about Next.js, take a look at the following resources:
+## Boîte à outils
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+La section met en avant le développement d’applications (C#), Android Studio, VS Code, le web et les outils de données. Les éléments listés sont volontairement limités aux technologies mentionnées dans le portfolio.

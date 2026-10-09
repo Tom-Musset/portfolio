@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta
+    name="description"
+    content="Portfolio de Tom Musset, développeur en recherche d’alternance."
+  >
+
+  <title>Tom Musset — Développeur web</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Lien d'accessibilité pour passer directement au contenu -->
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <!-- En-tête et navigation principale -->
+  <header>
+    <div class="container nav">
+
+      <a class="brand" href="#top">
+        <span class="monogram">T.</span>
+        Tom Musset
+      </a>
+
+      <!-- Bouton du menu sur mobile -->
+      <button
+        class="menu"
+        aria-expanded="false"
+        aria-controls="nav"
+      >
+        Menu ☰
+      </button>
+
+      <nav id="nav">
+        <a href="#projects">Projets</a>
+        <a href="#journey">Parcours</a>
+        <a href="#skills">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Raccourci vers l'adresse e-mail -->
+      <a class="nav-cta" href="mailto:tommusset@hotmail.fr">
+        Échanger ↗
+      </a>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==================================================
+         SECTION 1 : PRÉSENTATION
+         ================================================== -->
+    <section class="hero section" id="top">
+      <div class="container hero-grid">
+
+        <!-- Présentation textuelle -->
+        <div>
+          <p class="eyebrow">
+            <i></i>
+            Recherche d’alternance en développement
+          </p>
+
+          <h1>
+            Construire.<br>
+            <em>Comprendre.</em><br>
+            Faire mieux.
+          </h1>
+
+          <p class="intro">
+            Bonjour, moi c’est Tom. Après un BTS SIO option SLAM
+            et une expérience professionnelle qui m’a appris à
+            prendre des responsabilités, je reviens dans le développement
+            avec l’envie de concevoir des applications utiles et
+            bien pensées.
+          </p>
+
+          <div class="actions">
+            <a class="button dark" href="#projects">
+              Découvrir mes projets ↓
+            </a>
+
+            <a class="underlink" href="#journey">
+              Mon parcours ↗
+            </a>
+          </div>
+
+          <div class="meta">
+            BLAIN · RÉGION NANTAISE
+            <span></span>
+            DÉVELOPPEMENT WEB & APPLICATIONS
+          </div>
+        </div>
+
+        <!-- Illustration décorative d'un éditeur de code -->
+        <div
+          class="code-art"
+          aria-label="Illustration décorative d'un environnement de développement"
+        >
+          <div class="windowbar">
+            <b></b>
+            <b></b>
+            <b></b>
+            <small>workspace / tom</small>
+          </div>
+
+          <div class="editor">
+
+            <!-- Icônes de la barre latérale -->
+            <aside>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </aside>
+
+            <!-- Exemple de code décoratif -->
+            <div class="code">
+              <p>
+                <label>01</label>
+                <span class="purple">const</span>
+                <span class="green">curiosity</span> =
+                <span class="orange">true</span>;
+              </p>
+
+              <p>
+                <label>02</label>
+                <span class="purple">function</span>
+                <span class="blue">buildSomething</span>() {
+              </p>
+
+              <p>
+                <label>03</label>
+                　<span class="purple">return</span>
+                <span class="green">learn</span>() +
+                <span class="green">create</span>();
+              </p>
+
+              <p>
+                <label>04</label>
+                }
+              </p>
+
+              <br>
+
+              <p>
+                <label>05</label>
+                <span class="muted">// toujours progresser</span>
+              </p>
+
+              <p>
+                <label>06</label>
+                <span class="blue">buildSomething</span>();
+                <span class="cursor"></span>
+              </p>
+            </div>
+          </div>
+
+          <span class="sticker">
+            01 — apprendre en faisant
+          </span>
+
+          <span class="art-sign">
+            TM
+            <small>
+              PORTFOLIO<br>
+              2026
+            </small>
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Bandeau récapitulatif des principaux outils -->
+      <div class="container tech-strip">
+        <span>MES OUTILS</span>
+
+        <div>
+          Android Studio <b>·</b>
+          VS Code <b>·</b>
+          Sublime Text <b>·</b>
+          SQL Server
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 2 : PROJETS
+         ================================================== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+
+        <!-- Titre et introduction de la section -->
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              Sélection de travaux
+              <span class="rule"></span>
+            </p>
+
+            <h2>
+              Du concret,<br>
+              <em>pas seulement des idées.</em>
+            </h2>
+          </div>
+        </div>
+
+        <!-- Cartes des projets -->
+        <div class="cards">
+
+          <!-- Projet 1 : Todo List -->
+          <article class="project">
+
+            <!-- Aperçu conceptuel de la Todo List -->
+            <div class="preview todo">
+              <div class="mock">
+
+                <div class="mocktop">
+                  <span>● ● ●</span>
+                  todo.list
+                  <small>PERSONAL PROJECT</small>
+                </div>
+
+                <div class="mockbody">
+                  <h4>
+                    Mes tâches
+                    <b>+</b>
+                  </h4>
+
+                  <div class="fakeinput">
+                    Ajouter une nouvelle tâche…
+                    <strong>Ajouter</strong>
+                  </div>
+
+                  <div class="filters">
+                    <b>Toutes</b>
+                    　À faire　 Terminées
+                  </div>
+
+                  <div class="task">
+                    □　Reprendre JavaScript
+                    <span>×</span>
+                  </div>
+
+                  <div class="task checked">
+                    ☑　Créer une liste de tâches
+                    <span>×</span>
+                  </div>
+
+                  <div class="task">
+                    □　Conserver les données
+                    <span>×</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <small class="caption">
+                ILLUSTRATION CONCEPTUELLE · PAS UNE CAPTURE RÉELLE
+              </small>
+            </div>
+
+            <!-- Description du projet Todo List -->
+            <div class="project-body">
+              <div class="kicker">
+                <span>01 / PERSONNEL</span>
+                <span>2026</span>
+              </div>
+
+              <h3>Todo List</h3>
+
+              <p>
+                Une application de gestion de tâches en JavaScript
+                . Ajouter et supprimer des tâches, marquer
+                celles qui sont terminées, filtrer la liste et
+                conserver les données dans le navigateur grâce
+                à localStorage.
+              </p>
+
+              <div class="tags">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>localStorage</span>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/Tom-Musset/todo-list-javascript"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Voir le dépôt GitHub <b>↗</b>
+              </a>
+            </div>
+
+          </article>
+
+          <!-- Projet 2 : Aussonne -->
+          <article class="project">
+
+            <!-- Aperçu conceptuel de l'espace d'administration -->
+            <div class="preview club">
+              <div class="clubmock">
+
+                <!-- Barre latérale de l'interface fictive -->
+                <aside>
+                  <strong>A<span>+</span></strong>
+                  <small>ESPACE ADMIN</small>
+                  <b>▦ Tableau de bord</b>
+                  <span>♙ Adhérents</span>
+                  <span>♧ Équipes</span>
+                  <span>♙ Entraîneurs</span>
+                  <span>◉ Sports</span>
+                </aside>
+
+                <!-- Contenu principal de l'interface fictive -->
+                <div class="clubcontent">
+                  <div class="clubtitle">
+                    Tableau de bord
+                    <small>Administrateur⌄</small>
+                  </div>
+
+                  <p>Vue d’ensemble du club</p>
+
+                  <div class="stats">
+                    <div>
+                      <small>ADHÉRENTS</small>
+                      <b>—</b>
+                    </div>
+
+                    <div>
+                      <small>ÉQUIPES</small>
+                      <b>—</b>
+                    </div>
+
+                    <div>
+                      <small>SPORTS</small>
+                      <b>—</b>
+                    </div>
+                  </div>
+
+                  <div class="data">
+                    <b>Gestion des données</b>
+
+                    <p>
+                      Adhérents
+                      <span>Consulter / modifier</span>
+                    </p>
+
+                    <p>
+                      Équipes
+                      <span>Consulter / modifier</span>
+                    </p>
+
+                    <p>
+                      Entraîneurs
+                      <span>Consulter / modifier</span>
+                    </p>
+
+                    <p>
+                      Sports proposés
+                      <span>Consulter / modifier</span>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <small class="caption">
+                ILLUSTRATION CONCEPTUELLE · PAS UNE CAPTURE RÉELLE
+              </small>
+            </div>
+
+            <!-- Description du projet Aussonne -->
+            <div class="project-body">
+              <div class="kicker">
+                <span>02 / PROJET DE BTS EN BINÔME</span>
+                <span>2022</span>
+              </div>
+
+              <h3>Aussonne — gestion sportive</h3>
+
+              <p>
+                Application web réalisée en binôme pour consulter
+                les informations d’un club sportif : adhérents,
+                entraîneurs, équipes et sports proposés. Les profils
+                administrateurs pouvaient créer, modifier et supprimer
+                des données.
+              </p>
+
+              <div class="tags">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/Tom-Musset/ProjetAussonne"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Voir le dépôt GitHub <b>↗</b>
+              </a>
+            </div>
+
+          </article>
+
+            <!-- Projet  : Petits Jeux -->
+            <article class="project">
+
+            <div class="project-visual mini-games-visual">
+                <div class="mini-games-header">
+                    <span>Mini-jeux JavaScript</span>
+                    <span>03</span>
+                </div>
+
+                <div class="mini-games-content">
+
+                    <div class="mini-game-preview">
+                    <span class="mini-game-icon">✊</span>
+                    <div>
+                        <h3>Pierre-feuille-ciseaux</h3>
+                        <p>Choisis ton coup et défie l’ordinateur.</p>
+                    </div>
+                    <span class="mini-game-symbol">✌️</span>
+                    </div>
+
+                    <div class="mini-game-preview">
+                    <span class="mini-game-icon">🃏</span>
+                    <div>
+                        <h3>Memory</h3>
+                        <p>Retrouve les paires de cartes.</p>
+                    </div>
+                    <div class="memory-cards">
+                        <span>?</span>
+                        <span>⭐</span>
+                        <span>?</span>
+                        <span>🚀</span>
+                    </div>
+                    </div>
+
+                    <div class="mini-game-preview">
+                    <span class="mini-game-icon">🔨</span>
+                    <div>
+                        <h3>Tape-taupe… sans taupe</h3>
+                        <p>On a juste remplacé les Taupes par des cases qui s'allument.</p>
+                    </div>
+                    <div class="mole-holes">
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                    </div>
+                    </div>
+
+                </div>
+
+              <small class="caption">
+                ILLUSTRATION CONCEPTUELLE · PAS UNE CAPTURE RÉELLE
+              </small>
+            </div>
+
+            <!-- Description des projets -->
+            <div class="project-body">
+              <div class="kicker">
+                <span>03 / Mini Projets Annexes</span>
+                <span>2022</span>
+              </div>
+
+              <h3>Mini-Jeux</h3>
+
+              <p>
+                Plusieurs mini-jeux que j'ai fait quand j'ai commencer sur JavaScript.
+              <br></br>
+                Pierre/Feuille/Ciseaux <b> - </b>Memory<b> -</b>Tape Taupe.
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>JSon</span>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/Tom-Musset/DEV/tree/main/JS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Voir le dépôt GitHub <b>↗</b>
+              </a>
+            </div>
+
+          </article>
+
+        
+            <p class="note">
+            ↳ Les aperçus sont des illustrations conceptuelles, pas des
+            captures exactes des applications originales.
+            </p>
+        </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 3 : PARCOURS ET CV
+         ================================================== -->
+    <section class="section journey" id="journey">
+      <div class="container two-col cv-inner">
+
+        <!-- Texte de présentation du parcours -->
+        <div>
+          <p class="eyebrow">Le chemin parcouru</p>
+
+          <h2>
+            Un parcours qui m’a appris
+            <em>à faire.</em>
+          </h2>
+
+          <p class="subtext">
+            Le développement reste mon objectif. Mes expériences
+            m’ont aussi appris à organiser le travail, communiquer
+            et prendre des responsabilités.
+          </p>
+        </div>
+
+        <!-- CV affiché directement comme une image -->
+        <div class="cv-image-container">
+            <img
+            src="assets/CV-Tom-Musset.png"
+            alt="CV de Tom Musset"
+            class="cv-image"
+            >
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 4 : COMPÉTENCES ET OUTILS
+         ================================================== -->
+    <section class="section skills" id="skills">
+      <div class="container two-col">
+
+        <!-- Titre de la section -->
+        <div>
+          <p class="eyebrow">Boîte à outils</p>
+
+          <h2>
+            Les bases pour<br>
+            <em>construire la suite.</em>
+          </h2>
+        </div>
+
+        <!-- Liste des compétences -->
+        <div>
+          <p class="subtext">
+            Je préfère consolider mes fondamentaux, comprendre ce
+            que je construis et progresser projet après projet.
+          </p>
+
+          <div class="skillrow">
+            <span>01</span>
+            <b>Développement d’applications</b>
+            <small>C# · POO</small>
+          </div>
+
+          <div class="skillrow">
+            <span>02</span>
+            <b>Développement mobile</b>
+            <small>Android Studio</small>
+          </div>
+
+          <div class="skillrow">
+            <span>03</span>
+            <b>Développement web</b>
+            <small>JavaScript · HTML · CSS · PHP</small>
+          </div>
+
+          <div class="skillrow">
+            <span>04</span>
+            <b>Bases de données & outils</b>
+            <small>SQL · SQL Server · Git · GitHub · APIs</small>
+          </div>
+
+          <div class="skillrow">
+            <span>05</span>
+            <b>Environnement de travail</b>
+            <small>VS Code · Android Studio</small>
+          </div>
+
+          <div class="skillrow">
+            <span>06</span>
+            <b>Façon de travailler</b>
+            <small>Autonomie · rigueur · esprit d’équipe</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================
+         SECTION 5 : CONTACT
+         ================================================== -->
+    <section class="contact" id="contact">
+      <div class="container contactgrid">
+
+        <!-- Message de contact -->
+        <div>
+          <p class="eyebrow">Et maintenant ?</p>
+
+          <h2>
+            Une alternance,<br>
+            <em>un projet ou un échange.</em>
+          </h2>
+
+          <p>
+            Je suis à la recherche d’une alternance en développement.
+            Si mon profil peut correspondre à votre équipe, je serai
+            ravi d’en discuter.
+          </p>
+        </div>
+
+        <!-- Coordonnées et liens externes -->
+        <div class="contactlinks">
+          <a class="button light" href="mailto:tommusset@hotmail.fr">
+            Écrire un e-mail ↗
+          </a>
+
+          <a
+            href="https://github.com/Tom-Musset"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/tom-musset-5aa5832ba"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+
+          <small>Blain · région nantaise</small>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <div class="container foot">
+
+      <a class="brand" href="#top">
+        <span class="monogram">T.</span>
+        Tom Musset
+      </a>
+
+      <span>Portfolio développeur · 2026</span>
+
+      <a href="#top">Retour en haut ↑</a>
+
+    </div>
+  </footer>
+</body>
+</html>
