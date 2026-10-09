@@ -61,9 +61,10 @@ export const projects: Project[] = [
     slug: "todo-list",
     title: "Todo List",
     summary:
-      "Application de gestion de tâches développée en JavaScript vanilla, permettant d’ajouter, modifier, supprimer et marquer des tâches comme terminées. Projet réalisé pour travailler la manipulation du DOM, les événements et la gestion dynamique des données côté navigateur.",
-    role: "Projet solo",
-    stack: ["JavaScript", "HTML", "CSS"],
+    "Application de gestion de tâches développée en JavaScript vanilla. Elle permet d’ajouter et de supprimer des tâches, de marquer les tâches comme terminées et de filtrer leur affichage. Ce projet personnel m’a permis de reprendre JavaScript et de travailler la manipulation du DOM, les événements, les tableaux et la sauvegarde des données dans le navigateur avec localStorage.",
+    role: "Projet personnel",
+    stack: ["JavaScript", "HTML", "CSS", "localStorage"],
     year: "2026",
+    repo: "https://github.com/Tom-Musset/todo-list-javascript",
   },
 ];
