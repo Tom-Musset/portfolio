@@ -10,7 +10,7 @@ export function Projects() {
       id="projets"
       eyebrow="Sélection"
       title="Projets"
-      intro="Trois cartes de démonstration. Elles seront remplacées par des projets réels, sans invention de réalisations."
+      intro="Une sélection de projets réalisés durant ma formation et en autonomie."
     >
       <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (

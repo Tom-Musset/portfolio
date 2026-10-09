@@ -7,7 +7,7 @@ export function Skills() {
       id="competences"
       eyebrow="Stack"
       title="Compétences"
-      intro="Groupes préparés pour le contenu réel. Les libellés ci-dessous sont des placeholders, pas un inventaire de compétences."
+      intro="Les technologies que j’utilise, regroupées par domaine."
     >
       <ul className="grid gap-8 sm:grid-cols-2">
         {skillGroups.map((group) => (

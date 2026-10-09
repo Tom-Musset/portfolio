@@ -13,7 +13,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         className="mb-6 flex h-36 items-end border border-line bg-paper-muted px-4 py-3"
       >
         <span className="font-mono text-xs tracking-wide text-muted">
-          {project.year} · MAQUETTE
+          {project.year}
         </span>
       </div>
 
@@ -31,7 +31,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <p className="mt-3 flex-1 text-sm leading-6 text-muted">
         {project.summary}
       </p>
-      <ul className="mt-5 flex flex-wrap gap-2" aria-label="Stack placeholder">
+      <ul className="mt-5 flex flex-wrap gap-2" aria-label="Technologies utilisées">
         {project.stack.map((item) => (
           <li
             key={item}

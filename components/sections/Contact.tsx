@@ -9,14 +9,13 @@ export function Contact() {
       id="contact"
       eyebrow="Échange"
       title="Contact"
-      intro="Les coordonnées ci-dessous sont des placeholders. Le formulaire est uniquement visuel pour le moment."
+      intro="Mes coordonnées et mes réseaux sont ci-dessous. Le formulaire n’est pas encore connecté."
     >
       <div className="grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-16">
         <div>
           <p className="text-sm leading-7 text-muted">
-            Une entreprise peut laisser un message ici plus tard. Pour l’instant,
-            cette section sert à caler la mise en page et l’accessibilité du
-            formulaire.
+            Le plus simple reste de m’écrire par email. Le formulaire est
+            accessible, mais son envoi n’est pas encore branché.
           </p>
           <dl className="mt-8 space-y-5">
             <div>

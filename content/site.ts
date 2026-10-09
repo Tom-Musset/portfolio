@@ -1,24 +1,27 @@
 import type { SiteContent } from "./types";
 
 export const site: SiteContent = {
-  name: "[Prénom Nom]",
-  role: "Développeur full-stack — placeholder",
+  name: "Tom MUSSET",
+  role: "Développeur full-stack",
   tagline:
-    "Présentation temporaire. Ce texte sera remplacé par une introduction réelle, courte et factuelle.",
+    "En recherche d’alternance, je souhaite développer mes compétences dans une formation orientée IA/Data",
   availability:
-    "Recherche d’alternance en développement full-stack — période et rythme à préciser.",
-  email: "email.placeholder@example.com",
-  cvLabel: "CV (placeholder)",
+    "Disponible dès maintenant, idéalement au Nord de la région Nantaise. Le rythme de l’alternance reste à définir.",
+  email: "tommusset@hotmail.fr",
+  cvLabel: "Mon CV",
   cvHref: "#cv-placeholder",
   nav: [
     { href: "/#accueil", label: "Accueil" },
     { href: "/#projets", label: "Projets" },
-    { href: "/#parcours", label: "Parcours" },
     { href: "/#competences", label: "Compétences" },
+    { href: "/#parcours", label: "Parcours" },
     { href: "/#contact", label: "Contact" },
   ],
   socials: [
-    { label: "GitHub (placeholder)", href: "#github-placeholder" },
-    { label: "LinkedIn (placeholder)", href: "#linkedin-placeholder" },
+    { label: "GitHub", href: "https://github.com/Tom-Musset" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/tom-musset-5aa5832ba",
+    },
   ],
 };

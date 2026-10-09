@@ -4,37 +4,21 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "frontend",
     title: "Frontend",
-    items: [
-      "[Placeholder] Interface",
-      "[Placeholder] Composants",
-      "[Placeholder] Accessibilité",
-    ],
+    items: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: "backend",
     title: "Backend",
-    items: [
-      "[Placeholder] API",
-      "[Placeholder] Logique métier",
-      "[Placeholder] Authentification",
-    ],
+    items: ["PHP", "Java", "C#", "API"],
   },
   {
     id: "database",
     title: "Base de données",
-    items: [
-      "[Placeholder] Modélisation",
-      "[Placeholder] Requêtes",
-      "[Placeholder] Persistence",
-    ],
+    items: ["SQL"],
   },
   {
     id: "tools",
     title: "Outils",
-    items: [
-      "[Placeholder] Git",
-      "[Placeholder] Qualité",
-      "[Placeholder] Déploiement",
-    ],
+    items: ["Git", "GitHub"],
   },
 ];

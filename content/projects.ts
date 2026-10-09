@@ -2,30 +2,21 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
-    slug: "projet-placeholder-01",
-    title: "[Placeholder] Projet 01",
+    slug: "projet-aussonne",
+    title: "Projet Aussonne — Application web de gestion",
     summary:
-      "Description temporaire d’un projet full-stack. À remplacer par une réalisation réelle, le contexte et le résultat.",
-    role: "Rôle à préciser",
-    stack: ["[Placeholder] Front", "[Placeholder] Back", "[Placeholder] BDD"],
-    year: "AAAA",
+      "Développement d’une application web en PHP permettant la gestion des adhérents, équipes, entraîneurs et actualités d’une association.",
+    role: "Projet BTS en binôme",
+    stack: ["PHP", "SQL", "JavaScript / AJAX", "Bootstrap"],
+    year: "2022",
   },
   {
-    slug: "projet-placeholder-02",
-    title: "[Placeholder] Projet 02",
+    slug: "todo-list",
+    title: "Todo List",
     summary:
-      "Description temporaire d’un second projet. Aucune réalisation fictive : cette carte sert uniquement de maquette.",
-    role: "Rôle à préciser",
-    stack: ["[Placeholder] API", "[Placeholder] Auth", "[Placeholder] Tests"],
-    year: "AAAA",
-  },
-  {
-    slug: "projet-placeholder-03",
-    title: "[Placeholder] Projet 03",
-    summary:
-      "Description temporaire d’un troisième projet. Les liens et captures seront ajoutés plus tard.",
-    role: "Rôle à préciser",
-    stack: ["[Placeholder] UI", "[Placeholder] Serveur", "[Placeholder] Déploiement"],
-    year: "AAAA",
+      "Application de gestion de tâches développée en JavaScript vanilla, permettant d’ajouter, modifier, supprimer et marquer des tâches comme terminées. Projet réalisé pour travailler la manipulation du DOM, les événements et la gestion dynamique des données côté navigateur.",
+    role: "Projet solo",
+    stack: ["JavaScript", "HTML", "CSS"],
+    year: "2026",
   },
 ];

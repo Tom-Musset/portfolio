@@ -57,7 +57,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <p className="mt-6 max-w-2xl text-lg leading-8 text-muted">
           {project.summary}
         </p>
-        <ul className="mt-8 flex flex-wrap gap-2" aria-label="Stack placeholder">
+        <ul className="mt-8 flex flex-wrap gap-2" aria-label="Technologies utilisées">
           {project.stack.map((item) => (
             <li
               key={item}
@@ -68,9 +68,8 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           ))}
         </ul>
         <p className="mt-10 max-w-2xl text-sm leading-6 text-muted">
-          Cette page est une ossature. Le contexte, les choix techniques, le
-          rôle et les liens (dépôt, démo) seront ajoutés lorsque le projet réel
-          sera renseigné.
+          Contexte, choix techniques et liens (dépôt GitHub, démo) seront
+          complétés prochainement.
         </p>
         <div className="mt-10">
           <ButtonLink href="/#contact" variant="secondary">

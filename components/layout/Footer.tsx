@@ -44,7 +44,7 @@ export function Footer() {
 
       <Container className="border-t border-line py-6">
         <p className="text-xs text-muted">
-          © {year} {site.name}. Contenu temporaire — portfolio en construction.
+          © {year} {site.name}. Portfolio développeur full-stack.
         </p>
       </Container>
     </footer>

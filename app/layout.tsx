@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description:
-    "Portfolio de développeur full-stack (contenu temporaire). Recherche d’alternance.",
+    "Portfolio de Tom Musset, développeur full-stack en recherche d’une alternance en développement informatique.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

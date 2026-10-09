@@ -72,7 +72,7 @@ export function ContactForm() {
         </p>
       ) : (
         <p className="mt-4 text-sm text-muted">
-          Aucun message n’est envoyé à ce stade.
+          L’envoi du formulaire sera disponible prochainement.
         </p>
       )}
     </form>

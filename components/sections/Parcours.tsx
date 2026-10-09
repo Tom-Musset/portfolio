@@ -13,7 +13,7 @@ export function Parcours() {
       id="parcours"
       eyebrow="Chemin"
       title="Parcours"
-      intro="Timeline temporaire : formation, expérience et alternance recherchée. Aucune entrée n’est une expérience réelle."
+      intro="Formation et expériences professionnelles, du plus récent au plus ancien."
     >
       <ol className="relative space-y-0 border-l border-line pl-6 sm:pl-8">
         {parcours.map((item) => (
