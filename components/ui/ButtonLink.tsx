@@ -7,6 +7,7 @@ type ButtonLinkProps = {
   children: ReactNode;
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
+  newTab?: boolean;
 };
 
 export function ButtonLink({
@@ -14,10 +15,13 @@ export function ButtonLink({
   children,
   variant = "primary",
   className,
+  newTab = false,
 }: ButtonLinkProps) {
   return (
     <Link
       href={href}
+      target={newTab ? "_blank" : undefined}
+      rel={newTab ? "noopener noreferrer" : undefined}
       className={cn(
         "inline-flex items-center justify-center rounded-md px-4 py-2.5 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent",
         variant === "primary" && "bg-accent text-white hover:bg-accent-hover",

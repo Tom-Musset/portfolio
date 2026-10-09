@@ -67,10 +67,63 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </li>
           ))}
         </ul>
-        <p className="mt-10 max-w-2xl text-sm leading-6 text-muted">
-          Contexte, choix techniques et liens (dépôt GitHub, démo) seront
-          complétés prochainement.
-        </p>
+
+        {project.repo ? (
+          <div className="mt-8">
+            <ButtonLink href={project.repo} variant="secondary" newTab>
+              Voir le dépôt GitHub
+            </ButtonLink>
+          </div>
+        ) : null}
+
+        {project.detail ? (
+          <div className="mt-14 max-w-2xl space-y-12">
+            {project.detail.map((section, index) => (
+              <section
+                key={section.heading}
+                aria-labelledby={`${project.slug}-section-${index}`}
+              >
+                <h2
+                  id={`${project.slug}-section-${index}`}
+                  className="font-serif text-2xl tracking-tight text-ink sm:text-3xl"
+                >
+                  {section.heading}
+                </h2>
+                {section.paragraphs?.map((paragraph) => (
+                  <p
+                    key={paragraph}
+                    className="mt-4 text-base leading-7 text-muted"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+                {section.items ? (
+                  <ul className="mt-5 space-y-3">
+                    {section.items.map((item) => (
+                      <li
+                        key={item.label}
+                        className="text-sm leading-6 text-muted"
+                      >
+                        <span className="font-medium text-ink">
+                          {item.label} :
+                        </span>{" "}
+                        {item.text}
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </section>
+            ))}
+          </div>
+        ) : null}
+
+        {project.detail ? null : (
+          <p className="mt-10 max-w-2xl text-sm leading-6 text-muted">
+            Contexte, choix techniques et liens (dépôt GitHub, démo) seront
+            complétés prochainement.
+          </p>
+        )}
+
         <div className="mt-10">
           <ButtonLink href="/#contact" variant="secondary">
             Me contacter

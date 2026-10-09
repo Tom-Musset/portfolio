@@ -20,6 +20,17 @@ export type SiteContent = {
   socials: SocialLink[];
 };
 
+export type ProjectDetailItem = {
+  label: string;
+  text: string;
+};
+
+export type ProjectDetailSection = {
+  heading: string;
+  paragraphs?: string[];
+  items?: ProjectDetailItem[];
+};
+
 export type Project = {
   slug: string;
   title: string;
@@ -27,6 +38,8 @@ export type Project = {
   role: string;
   stack: string[];
   year: string;
+  repo?: string;
+  detail?: ProjectDetailSection[];
 };
 
 export type SkillGroup = {
